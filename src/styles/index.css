@@ -1,0 +1,48 @@
+/* src/index.css */
+
+/* Import Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styling */
+
+/* Add your custom global styles here */
+
+/* Example: Center the app content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Example: Add padding to the app content */
+#root {
+  padding: 20px;
+}
+
+/* Example: Style the app header */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Example: Style buttons */
+button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Example: Add margin to elements */
+.mt-4 {
+  margin-top: 1rem;
+}
